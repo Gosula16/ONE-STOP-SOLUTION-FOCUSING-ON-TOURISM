@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "The Gourmet Kitchen",
+      "cuisine": "Italian",
+      "rating": 4.5,
+      "location": "New York, USA",
+      "priceRange": "$$",
+      "contact": "+1 212-555-1234"
+    },
+    {
+      "id": 2,
+      "name": "Sushi Master",
+      "cuisine": "Japanese",
+      "rating": 4.7,
+      "location": "Tokyo, Japan",
+      "priceRange": "$$$",
+      "contact": "+81 3-555-9876"
+    },
+    {
+      "id": 3,
+      "name": "Bistro 48",
+      "cuisine": "French",
+      "rating": 4.2,
+      "location": "Paris, France",
+      "priceRange": "$$$",
+      "contact": "+33 1 44 55 67 89"
+    },
+    {
+      "id": 4,
+      "name": "Taco Haven",
+      "cuisine": "Mexican",
+      "rating": 4.0,
+      "location": "Los Angeles, USA",
+      "priceRange": "$",
+      "contact": "+1 323-555-4321"
+    },
+    {
+      "id": 5,
+      "name": "The Royal Feast",
+      "cuisine": "Indian",
+      "rating": 4.8,
+      "location": "Mumbai, India",
+      "priceRange": "$$$",
+      "contact": "+91 22-555-6789"
+    }
+  ]
+  

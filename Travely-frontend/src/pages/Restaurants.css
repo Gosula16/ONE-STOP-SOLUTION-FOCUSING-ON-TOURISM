@@ -1,0 +1,109 @@
+/* General container and layout */
+.restaurants-container {
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Dropdown menu for selecting restaurant */
+.restaurant-dropdown {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.restaurant-dropdown:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+/* Restaurant details section */
+.restaurant-details {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.restaurant-details h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.restaurant-details p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Food items section */
+.food-items {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.food-item {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.food-item:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.food-item input {
+    margin-right: 10px;
+}
+
+.selected-foods {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.selected-foods p {
+    margin: 5px 0;
+}
+
+.book-button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #218838;
+}

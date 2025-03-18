@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Container for the entire app */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Scrollable Flight List */
+.flight-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 500px; /* Adjust the height based on your design */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding-right: 10px; /* Add space for scrollbar */
+}
+
+.flight-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.flight-item:hover {
+    background-color: #f0f0f0;
+}
+
+.flight-item.selected {
+    background-color: #f0f0f0;
+}
+
+.flight-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.flight-item p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Optional: style for the scrollbar itself */
+.flight-list::-webkit-scrollbar {
+    width: 8px; /* Adjust scrollbar width */
+}
+
+.flight-list::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px;
+}
+
+.flight-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Hover color */
+}
+
+/* Flight Details Section (Booking Form) */
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.booking-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.booking-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.booking-form button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.booking-form button:hover {
+    background-color: #45a049;
+}
+
+/* Ticket Section */
+.ticket-info {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.ticket-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.ticket-info p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.ticket-info button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.ticket-info button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Style for the page */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
